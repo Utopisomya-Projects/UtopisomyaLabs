@@ -1,0 +1,8 @@
+/* ========================================
+   ROOT VARIABLES & GLOBAL SETTINGS
+======================================== */
+    :root {
+      --ufg-blue: #2f8cff;
+      --ufg-cyan: #8be9ff;
+      --ufg-text: #e8f0ff;
+    }

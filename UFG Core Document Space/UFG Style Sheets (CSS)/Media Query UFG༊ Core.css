@@ -1,0 +1,47 @@
+/* ========================================
+   LAPTOP TRANSITION ≤ 1280px
+======================================== */
+   @media (max-width: 1280px) {
+      .topbar { justify-content: center; }
+      .nav { order: 3; width: 100%; justify-content: center; }
+    }
+    
+/* ========================================
+   TABLET RESPONSIVE ≤ 1100px
+======================================== */
+    @media (max-width: 1100px) {
+      .UFG-heroes { grid-template-columns: 1fr; min-height: auto; padding-top: 20px; }
+      .visual-guard { min-height: 620px; }
+      .features { grid-template-columns: repeat(2, 1fr); }
+      .social { right: 0; top: 18px; transform: none; grid-auto-flow: column; }
+    }
+    
+/* ========================================
+   MOBILE RESPONSIVE ≤ 720px
+======================================== */
+    @media (max-width: 720px) {
+      .environments-background { display: none; }
+      .coreViewWrapper { padding: 16px; }
+      .topbar { position: static; flex-direction: column; align-items: stretch; }
+      .UFGlogo { border: 1px solid rgba(120, 183, 255, 0.16); }
+      .UFGlogo img { width: 100%; height: 100%; }
+      .UFGlogo::after { border: 1px solid rgba(255,255,255,0.03); }
+      .nav { top: 0px; transform: translateX(0px); gap: 18px; padding: 14px 16px; border: 1px solid rgba(120, 183, 255, 0.16); border-radius: 22px; }
+      .nav a { font-size: 12px; }
+      .primary.btn { top: 0px; left: 0px; }
+      .header-line { display: none; }
+      .UFG-heroes { gap: 16px; padding-bottom: 16px; }
+      .shadow-hero { top: 0; }
+      .lead { font-size: 16px; }
+      .btn { width: 100%; }
+      .visual-guard { min-height: 480px; }
+      .social { position: relative; top: auto; left: auto; right: auto; justify-content: center; margin-top: 8px; }
+      .front-boundary-area { display: none; }
+      .displayEmblem { top: -50px; left: 0px; width: min(82vw, 680px); }
+      .scroll-card { position: relative; left: auto; bottom: auto; margin-top: 16px; width: 100%; }
+      .underlayments-background { display: none; }
+      .features { top: -65px; }
+      .feature { padding: 22px 20px; }
+      .wrap { width: min(1520px, calc(100% - 56px)); margin: 0 auto; }
+      IDcard { top: 0; }
+    }

@@ -1,0 +1,21 @@
+/* ========================================
+   ANIMATIONS
+======================================== */
+    @keyframes dustFloat {
+      0% { transform: translate(0px, 0px); opacity: 0; }
+      10% { opacity: .15; } 20% { opacity: .35; } 35% { opacity: calc(var(--max-opacity) * .75); }
+      50% { opacity: var(--max-opacity); }
+      65% { opacity: calc(var(--max-opacity) * .75); } 80% { opacity: .35; } 90% { opacity: .15; }
+      100% { transform: translate(var(--drift-x), var(--travel-distance)); opacity: 0; }
+    }
+
+    @keyframes energyGlow {
+      0% { filter: drop-shadow(0 0 2px #8be9ff) drop-shadow(0 0 4px #2f8cff); }
+      50% { filter: drop-shadow(0 0 4px #8be9ff) drop-shadow(0 0 12px #2f8cff); }
+      100% { filter: drop-shadow(0 0 2px #8be9ff) drop-shadow(0 0 4px #2f8cff); }
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-12px) scale(1.01); }
+    }
