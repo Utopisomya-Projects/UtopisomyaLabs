@@ -1,0 +1,56 @@
+Visual Diagram of Vertical Layer Stacking Anatomy (Vertical Stacking & Z-Index)
+
+This ASCII diagram illustrates the spatial stacking/layering hierarchy
+(Z-Index & Vertical Offset Coordinates) from the
+bottom layer to the top layer on the UFG main stage:
+
+[ TOP ] =============================================================================== 
+▲ 
+│ [ Z-INDEX: 10 ] TOP-MOST INTERACTION & CONTENT LAYER 
+│ ├─ .features .................... (Offset: top: -161px | Grid 4 Col) 
+│ ├─ .globalization .............. (Offset: margin-top: -150px) 
+│ └─ IDcard ....................... (Offset: top: 400px | Footer Credential) 
+│ 
+│ [ Z-INDEX: 4 ] FLOATING INTERACTIVE CONTROLS 
+│ └─ .scroll-card ................. (Floating CTA Indicator | Glassmorphism) 
+│ 
+│ [ Z-INDEX: 2 / 3 ] VISUAL GUARD & HERO CONTAINER 
+│ ├─ .visual-guard ................ (z-index: 2 | Canvas Guard Buffer) 
+│ ├─ .hero-brand-symbol ........... (z-index: 3 | Brand Logo Engine) 
+│ └─ .social ...................... (z-index: 3 | Floating Social Links) 
+│ 
+│ [ Z-INDEX: 1 ] HERO DISPLAY & AUDIO PLAYER 
+│ ├─ .hero-display ................ (Main Visual Frame & Glow Accent) 
+│ └─ .music-player ................ (Audio Controller Component) 
+│ 
+│ [ Z-INDEX: 0 ] STAGE CONTAINER BASE 
+│ └─ .stage-container ............. (Viewport Centering Container) 
+│ 
+│ [ Z-INDEX: -1 ] DEEP ATMOSPHERIC BASE 
+│ └─ .underlayments-background .... (Offset: bottom: -2225px | Width: 196%) 
+▼
+[ BOTTOM ] =====================================================================
+
+Core Foundation Layout & CSS Component Tree Diagram
+
+This tree diagram shows the mapping of the 17 styling
+components that make up the overall architecture of the UFG website.
+
+UFG༊ Core Foundation.css 
+├── 01. Reset & Body Foundation (*, html, body) 
+├── 02. Stage Container Base Layout (.stage-container) 
+├── 03. Hero Display Shell (.hero-display) 
+├── 04. Hero Brand Symbol (.hero-brand-symbol) 
+├── 05. Stage Ambient Lighting Glow (.stage-ambient-glow) 
+├── 06. Audio Visual Bar (.music-player) 
+├── 07. Music Player Frame & Progress (.music-card, .progress-bar) 
+├── 08. Audio Controls & Buttons (.music-btn) 
+├── 09. Track Details & Volume HUD (.track-info, .volume-slider) 
+├── 10. Social Media Grid Links (.social a) 
+├── 11. Custom Tooltip System ([data-tooltip]) 
+├── 12. Visual Guard Overlay (.visual-guard) 
+├── 13. Interactive Scroll Indicator (.scroll-card, .scroll-icon) 
+├── 14. Deep Underlayments Canvas (.underlayments-background) 
+├── 15. Features Grid & Cards (.features, .feature) 
+├── 16. Globalization Article Grid (.globalization, .developments-grid, .card-page) 
+└── 17. Footer ID Card Credentials (IDcard, biriden)
