@@ -1,0 +1,72 @@
+UFG v1.0 HTML Framework Structure Diagram:
+
+<!DOCTYPE html>
+|    <!--// Dream Stage \\-->
+└── <html lang="en" data-ufg-stage="DOMISOMYA༊"> 
+│ 
+├── <head> (Global Metadata & Modular Stylesheets Warehouse) 
+│ ├── <meta> (UTF-8 & Mobile Viewport Responsive Optimization) 
+│ ├── <title> (Utopisomya Foundation Group) 
+│ ├── <link> Layer 1 ── Design Tokens Warehouse.css (Variables Base) 
+│ ├── <link> Layer 2 ── UFG༊ Core Foundation.css (Macro Layout) 
+│ ├── <link> Layer 3 ── UFG༊ System Animation Keyframes.css (Micro-interactions) 
+│ ├── <link> Layer 4 ── Media Query UFG༊ Core.css (Adaptive Breakpoints) 
+│ └── <link> Layer 5 ── UFG༊ Brand Michroma Font.css (Typography Token) 
+│ 
+└── <body> (The Execution & Ambient Layer) 
+│ 
+├── .environments-background (Background Atmosphere) 
+│ └── .environment-effects 
+│ └── .rear-boundary-area
+│ └── .rear.dust-particles (Rear Depth Particles)
+│
+├── .coreViewWrapper (Primary Physical Content Wrapper)
+│ │
+│ ├── <header class="topbar"> (Global Access Navigation System)
+│ │ ├── a.brand (Brand Profile Identity) ──> img [UFG༊ brand profile.png]
+│ │ ├── <nav class="nav"> (Content Navigation Menu: Home to Contact)
+│ │ └── a.primary.btn (Call to Action) ──> Open Gate Gateway
+│ │
+│ ├── .header-line (Dynamic Linear Energy Network)
+│ │ ├── .energy-particle-1 & .energy-particle-2 (JS Manipulation Nodes)
+│ │ └── <svg class="energy-path"> (Animated Gradient Light Pulse Engine)
+│ │ ├── <defs> ── <linearGradient id="EnergyPulseGradient"> (GPU Animation Loop)
+│ │ └── <path> (Route & Stream Vectors: Top & Bottom Paths)
+│ │
+│ ├── <main id="home" class="UFG-heroes"> (Main Stage Hero Section)
+│ │ ├── <section class="shadow-hero"> (Narrative Text Cluster & Documentation Hub)
+│ │ │ ├── .receptionist (Welcome Text)
+│ │ │ ├── <UFG-brand> (Layered Text Effect: UFG - UTOPISOMYA - FOUNDATION GROUP)
+│ │ │ ├── p.lead (UFG Philosophical Vision Statement)
+│ │ │ └── .documentations (Interactive Action) ── Whitepaper & Play Showreel 
+│ │ │ 
+│ │ └── <section class="visual-guard"> (Visual Fortress & 3D Dimension Layer) 
+│ │ ├── .emblem-frame 
+│ │ │ ├── .front-boundary-area ──> .front.dust-particles (Front Depth Particles) 
+│ │ │ └── img.displayEmblem [UFG༊ brand emblem.png] (Core Asset) 
+│ │ ├── .social (Inline SVG Icons: FB, Twitter/X, IG, LinkedIn) 
+│ │ ├── button#Scroll_Down_Button (Hanging Vertical Navigation Action) 
+│ │ └── .underlayments-background ──> img [UFG༊ podium floor.png] (Virtual Floor) 
+│ │ 
+│ ├── <section class="features"> (Ecosystem Value Pillar) 
+│ │ ├── <article class="feature"> (Innovation ── Inline SVG Lightning) 
+│ │ ├── <article class="feature"> (Technology ── Inline SVG Data Bar) 
+│ │ ├── <article class="feature"> (Design ── Inline SVG Structure Diagram) 
+│ │ └── <article class="feature"> (Performance ── Inline SVG Acceleration) 
+│ │ 
+│ ├── <section class="globalization"> (Global Technology Update Portal) 
+│ │ ├── .news-title (AI, Blockchain, Crypto, Web3 Curated Header) 
+│ │ └── .developments-grid (Empty Anchor Node ── JavaScript Data Injection Target) 
+│ │ 
+│ └── <IDcard id="ID_Card"> (Custom Element Footer / Digital Footprint Identity) 
+│ ├── <biriden> (Copyright & Era Marker Timestamp: May 22, 2026)
+│ └── <biriden> (Utopic Vision Final Statement)
+│
+├── <script src="UFG༊ Podium Hologram System.js" defer> (Podium Visual Engine)
+├── <script src="International🌐༊ News.js" defer> (Global News Fetching Engine)
+│
+├── <script> (Engine 1: SVG Path Geometry & Particle Loop Mathematical Calculations)
+│ └── animate() Function ──> requestAnimationFrame (Refresh Rate Synchronization (Screen)
+│
+└── <script> (Engine 2: Smooth Scroll Button Click Event Listener)
+└── Scroll_Down_Button ──> .scrollIntoView() smooth transition to #ID_Card
