@@ -1,8 +1,81 @@
 /* ========================================
    ROOT VARIABLES & GLOBAL SETTINGS
 ======================================== */
-    :root {
-      --ufg-blue: #2f8cff;
-      --ufg-cyan: #8be9ff;
-      --ufg-text: #e8f0ff;
-    }
+:root {
+  --ufg-bg: #010006;
+  --ufg-surface: #081020;
+  --ufg-surface-soft: #0b1528;
+  --ufg-blue-accent-color: #2f8cff;
+  --ufg-royal-blue: #5186e2;
+  --ufg-vivid-sky-blue: #56b2ff;
+  --ufg-soft-electric-azure: #6fb6ff;
+  --ufg-light-pastel-cyan: #8fd0ff;
+  --ufg-vibrant-royal-blue: #105de2;
+  --ufg-neon-electric-aqua: #8cf4ff;
+  --ufg-cyan-accent-color: #8be9ff;
+  --ufg-white-cyan-accent-color: #dff4ff;
+  --ufg-ice-blue: #eef5ff
+  --ufg-white-muted-accen-color: #ffffff;
+  --ufg-accent-text: #e8f0ff;
+  --ufg-light-neutral-gray: #c8c8c8;
+  --ufg-granite-gray: #707070;
+/* ======================================== */
+  --ufg-translucent-electric-blue: rgba(47,140,255,0.42);
+  --ufg-semi-transparent-dodger-blue: rgba(47,140,255,0.4);
+  --ufg-semi-transparent-soft-sky-blue: rgba(120, 183, 255, 0.35);
+  --ufg-bright-azure-tint: rgba(77,160,255,.30)
+  --ufg-24%translucent-sky-blue: rgba(114, 188, 255, 0.24);
+  --ufg-vibrant-sky-blue-tint: rgba(47,140,255,.20);
+  --ufg-soft-sky-blue-translucent: rgba(120, 183, 255, 0.12);
+  --ufg-vibrant-blue-mist: rgba(47,140,255,0.2);
+  --ufg-soft-dodger-blue: rgba(47,140,255,0.16);
+  --ufg-14%translucent-sky-blue: rgba(114, 188, 255, 0.14);
+  --ufg-sky-blue-tint rgba(120,183,255,0.14);
+  --ufg-light-blue-overlay: rgba(47,140,255,0.14);
+  --ufg-soft-sky-blue-that-fades: rgba(114, 188, 255, 0.12);
+  --ufg-subtle-vivid-blue-accent: rgba(47,140,255,.12);
+  --ufg-faint-sky-blue-tint: rgba(120,183,255,.10);
+  --ufg-subtle-blue: rgba(47,140,255,0.08);
+  --ufg-ultra-solid-midnight-navy: rgba(16,30,64,0.98);
+  --ufg-semi-transparent-royal-blue: rgba(47,140,255,0.18);
+  --ufg-18%semi-transparent-sapphire-blue: rgba(47, 140, 255, 0.18);
+  --ufg-solid-midnight-Blue: rgba(8,14,30,0.98);
+  --ufg-deep-navy-Off-black: rgba(12,22,48,0.96);
+  --ufg-deep-midnight-blue: rgba(8, 14, 30, 0.96);
+  --ufg-near-black-navy: rgba(6,10,24,.95);
+  --ufg-super-dark-midnight-blue: rgba(4,8,18,0.92);
+  --ufg-dark-navy-abyss: rgba(12,22,48,0.92);
+  --ufg-deep-midnight-shadow: rgba(10,18,40,0.88);
+  --ufg-dark-navy-glass: rgba(12,20,42,.82);
+  --ufg-very-dark-navy-blue: rgba(8,14,30,0.78);
+  --ufg-super-light-blue-tint: rgba(47,140,255,0.05);
+  --ufg-abyssalblue-obsidian-Cyan: rgba(6,10,22,0.96);
+  --ufg-semi-dark-black-overlay: rgba(0,0,0,.45);
+  --ufg-Deep-charcoal-veil-smoky-overlay: rgba(0,0,0,0.42);
+  --ufg-translucent-black-shadow-overlay: rgba(0,0,0,.35);
+  --ufg-semi-translucent-black: rgba(0,0,0,0.34):
+  --ufg-semi-transparent-black: rgba(0,0,0,0.28);
+  --ufg-tinted-black-charcoal-veil: rgba(0,0,0,0.24);
+  --ufg-solid-bright-cyan-electric-neon-blue: rgba(140,244,255,0.95);
+  --ufg-intense-electric-cyan: rgba(140,244,255,.75);
+  --ufg-8%semi-transparent-cyan: rgba(139,233,255,.8);
+  --ufg-7%semi-transparent-cyan: rgba(139, 233, 255, 0.7);
+  --ufg-34%translucent-ice-blue: rgba(140,244,255,0.34);
+  --ufg-translucent-neon-ice-aqua: rgba(139,233,255,0.28);
+  --ufg-light-translucent-cyan: rgba(139,233,255,0.22);
+  --ufg-ultra-light-cyan-blue-tint: rgba(47,140,255,0.06);
+  --ufg-off-white-translucent: rgba(255,255,255,.85);
+  --ufg-rbga-accent-text: rgba(232,240,255,0.92);
+  --ufg-86%very-soft-bluish-white: rgba(232,240,255,0.86);
+  --ufg-84%very-soft-bluish-white: rgba(232,240,255,0.84);
+  --ufg-82%very-soft-bluish-white: rgba(232,240,255,0.82);
+  --ufg-frosted-ice-azure: rgba(232,240,255,.72);
+  --ufg-frosted-light-azure: rgba(232,240,255,.65);
+  --ufg-text-muted: rgba(232, 240, 255, 0.55);
+  --ufg-soft-azure-veil: rgba(232,240,255,.45);
+  --ufg-soft-frosted-frost: rgba(255,255,255,0.08);
+  --ufg-frosted-white-veil: rgba(255,255,255,0.05);
+  --ufg-subtle-white-flash:  rgba(255,255,255,0.04);
+  --ufg-ultra-faint-white-glow: rgba(255,255,255,.04);
+  --ufg-pure-translucent-white: rgba(255,255,255,0.03);
+}
