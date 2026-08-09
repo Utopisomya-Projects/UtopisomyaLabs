@@ -1,13 +1,6 @@
 /* ========================================
    ROOT VARIABLES & GLOBAL SETTINGS
 ======================================== */
-    :root {
-      --ufg-blue: #2f8cff;
-      --ufg-cyan: #8be9ff;
-      --ufg-text: #e8f0ff;
-    }/* ========================================
-   ROOT VARIABLES & GLOBAL SETTINGS
-======================================== */
 :root {
   --ufg-bg: #010006;
   --ufg-surface: #081020;
