@@ -19,7 +19,7 @@
 /* ========================================
    MOBILE RESPONSIVE ≤ 720px
 ======================================== */
-    @media (max-width: 720px) {
+    @media (max-width: 768px) {
       .environments-background { display: none; }
       .coreViewWrapper { padding: 16px; }
       .topbar { position: static; flex-direction: column; align-items: stretch; }
@@ -37,6 +37,7 @@
       .visual-guard { min-height: 480px; }
       .social { position: relative; top: auto; left: auto; right: auto; justify-content: center; margin-top: 8px; }
       .front-boundary-area { display: none; }
+      .overlay-emblem { top: -50px; left: 0px; width: min(82vw, 680px); }
       .displayEmblem { top: -50px; left: 0px; width: min(82vw, 680px); }
       .scroll-card { position: relative; left: auto; bottom: auto; margin-top: 16px; width: 100%; }
       .underlayments-background { display: none; }
