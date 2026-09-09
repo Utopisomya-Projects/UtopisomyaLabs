@@ -1,10 +1,11 @@
 /* ========================================
-   ROOT VARIABLES & GLOBAL SETTINGS
+   Root Variable and Global Settings
 ======================================== */
 :root {
   /* Solid Colors */
-  --ufg-bg: #010006;
-  --ufg-surface: #081020;
+  --ufg-cosmic: #010006;
+  --ufg-rich-black: #040914;
+  --ufg-oxford-blue: #081020;
   --ufg-surface-soft: #0b1528;
   --ufg-blue-accent-color: #2f8cff;
   --ufg-royal-blue: #5186e2;
@@ -42,6 +43,8 @@
   --ufg-semi-transparent-royal-blue: rgba(47, 140, 255, 0.18);
   --ufg-18-semi-transparent-sapphire-blue: rgba(47, 140, 255, 0.18);
   --ufg-solid-midnight-blue: rgba(8, 14, 30, 0.98);
+  --ufg-very-dark-blue: rgba(4, 9, 20, 0.98);
+  --ufg-dark-navy-blue: rgba(8, 16, 32, 0.96);
   --ufg-deep-navy-off-black: rgba(12, 22, 48, 0.96);
   --ufg-deep-midnight-blue: rgba(8, 14, 30, 0.96);
   --ufg-near-black-navy: rgba(6, 10, 24, 0.95);
@@ -62,6 +65,7 @@
   --ufg-intense-electric-cyan: rgba(140, 244, 255, 0.75);
   --ufg-8-semi-transparent-cyan: rgba(139, 233, 255, 0.08);
   --ufg-7-semi-transparent-cyan: rgba(139, 233, 255, 0.07);
+  --ufg-baby-blue: rgba(143, 208, 255, 0.35);
   --ufg-34-translucent-ice-blue: rgba(140, 244, 255, 0.34);
   --ufg-translucent-neon-ice-aqua: rgba(139, 233, 255, 0.28);
   --ufg-light-translucent-cyan: rgba(139, 233, 255, 0.22);
@@ -80,4 +84,20 @@
   --ufg-subtle-white-flash: rgba(255, 255, 255, 0.04);
   --ufg-ultra-faint-white-glow: rgba(255, 255, 255, 0.04);
   --ufg-pure-translucent-white: rgba(255, 255, 255, 0.03);
+}
+
+/* ========================================
+  Color Filter Properties
+======================================== */
+:root {
+  --ufg-blue-icon-accent-filter: brightness(0) saturate(100%) invert(39.4732%) sepia(99.3345%)
+    saturate(89.2664%) hue-rotate(178.5103deg) brightness(104.7665%) contrast(559.2456%);
+}
+
+/* ========================================
+   UFG Central Platform Layout Core Width
+======================================== */
+:root {
+  --ufg-platform-studio-core-width: 260px;
+  --ufg_mobile-version_platform-studio-core-width: 50px
 }
